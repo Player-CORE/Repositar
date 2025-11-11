@@ -1,0 +1,14 @@
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\bin\Debug\net8.0\PoleNumbers.exe
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\bin\Debug\net8.0\PoleNumbers.deps.json
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\bin\Debug\net8.0\PoleNumbers.runtimeconfig.json
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\bin\Debug\net8.0\PoleNumbers.dll
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\bin\Debug\net8.0\PoleNumbers.pdb
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\obj\Debug\net8.0\PoleNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\obj\Debug\net8.0\PoleNumbers.AssemblyInfoInputs.cache
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\obj\Debug\net8.0\PoleNumbers.AssemblyInfo.cs
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\obj\Debug\net8.0\PoleNumbers.csproj.CoreCompileInputs.cache
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\obj\Debug\net8.0\PoleNumbers.dll
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\obj\Debug\net8.0\refint\PoleNumbers.dll
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\obj\Debug\net8.0\PoleNumbers.pdb
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\obj\Debug\net8.0\PoleNumbers.genruntimeconfig.cache
+C:\Users\rozsivalv\source\repos\PoleNumbers\PoleNumbers\obj\Debug\net8.0\ref\PoleNumbers.dll
