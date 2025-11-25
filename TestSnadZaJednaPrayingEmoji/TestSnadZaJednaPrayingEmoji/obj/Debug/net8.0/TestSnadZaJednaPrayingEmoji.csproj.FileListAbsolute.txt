@@ -1,0 +1,14 @@
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\bin\Debug\net8.0\TestSnadZaJednaPrayingEmoji.exe
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\bin\Debug\net8.0\TestSnadZaJednaPrayingEmoji.deps.json
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\bin\Debug\net8.0\TestSnadZaJednaPrayingEmoji.runtimeconfig.json
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\bin\Debug\net8.0\TestSnadZaJednaPrayingEmoji.dll
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\bin\Debug\net8.0\TestSnadZaJednaPrayingEmoji.pdb
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\obj\Debug\net8.0\TestSnadZaJednaPrayingEmoji.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\obj\Debug\net8.0\TestSnadZaJednaPrayingEmoji.AssemblyInfoInputs.cache
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\obj\Debug\net8.0\TestSnadZaJednaPrayingEmoji.AssemblyInfo.cs
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\obj\Debug\net8.0\TestSnadZaJednaPrayingEmoji.csproj.CoreCompileInputs.cache
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\obj\Debug\net8.0\TestSnadZaJednaPrayingEmoji.dll
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\obj\Debug\net8.0\refint\TestSnadZaJednaPrayingEmoji.dll
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\obj\Debug\net8.0\TestSnadZaJednaPrayingEmoji.pdb
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\obj\Debug\net8.0\TestSnadZaJednaPrayingEmoji.genruntimeconfig.cache
+C:\Users\rozsivalv\source\repos\TestSnadZaJednaPrayingEmoji\TestSnadZaJednaPrayingEmoji\obj\Debug\net8.0\ref\TestSnadZaJednaPrayingEmoji.dll
