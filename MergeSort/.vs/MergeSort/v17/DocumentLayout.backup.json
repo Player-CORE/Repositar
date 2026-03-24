@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\3.C\\Ostr\u00E9 mo\u0159e\\MergeSort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B353EBE-E148-4491-B304-C20B5589636C}|MergeSort.Tests\\MergeSort.Tests.csproj|o:\\3.c\\ostr\u00E9 mo\u0159e\\mergesort\\mergesort.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B353EBE-E148-4491-B304-C20B5589636C}|MergeSort.Tests\\MergeSort.Tests.csproj|solutionrelative:mergesort.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B353EBE-E148-4491-B304-C20B5589636C}|MergeSort.Tests\\MergeSort.Tests.csproj|o:\\3.c\\ostr\u00E9 mo\u0159e\\mergesort\\mergesort.tests\\mergesort.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6B353EBE-E148-4491-B304-C20B5589636C}|MergeSort.Tests\\MergeSort.Tests.csproj|solutionrelative:mergesort.tests\\mergesort.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFEAAB3B-F951-4F82-BD7E-85307BD2F85D}|MergeSort\\MergeSort.csproj|o:\\3.c\\ostr\u00E9 mo\u0159e\\mergesort\\mergesort\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFEAAB3B-F951-4F82-BD7E-85307BD2F85D}|MergeSort\\MergeSort.csproj|solutionrelative:mergesort\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MergeSort.Tests.csproj",
+              "DocumentMoniker": "O:\\3.C\\Ostr\u00E9 mo\u0159e\\MergeSort\\MergeSort.Tests\\MergeSort.Tests.csproj",
+              "RelativeDocumentMoniker": "MergeSort.Tests\\MergeSort.Tests.csproj",
+              "ToolTip": "O:\\3.C\\Ostr\u00E9 mo\u0159e\\MergeSort\\MergeSort.Tests\\MergeSort.Tests.csproj",
+              "RelativeToolTip": "MergeSort.Tests\\MergeSort.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-10T08:15:13.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "O:\\3.C\\Ostr\u00E9 mo\u0159e\\MergeSort\\MergeSort.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "MergeSort.Tests\\UnitTest1.cs",
+              "ToolTip": "O:\\3.C\\Ostr\u00E9 mo\u0159e\\MergeSort\\MergeSort.Tests\\UnitTest1.cs*",
+              "RelativeToolTip": "MergeSort.Tests\\UnitTest1.cs*",
+              "ViewState": "AgIAAE8AAAAAAAAAAAA0wGMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:06:46.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "O:\\3.C\\Ostr\u00E9 mo\u0159e\\MergeSort\\MergeSort\\Program.cs",
+              "RelativeDocumentMoniker": "MergeSort\\Program.cs",
+              "ToolTip": "O:\\3.C\\Ostr\u00E9 mo\u0159e\\MergeSort\\MergeSort\\Program.cs",
+              "RelativeToolTip": "MergeSort\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T07:53:55.431Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
