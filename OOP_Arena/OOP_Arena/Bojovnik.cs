@@ -35,7 +35,7 @@ namespace OOP_Arena
         /// <summary>
         /// Zpráva o tom, co bojovník dělá nebo co se mu děje
         /// </summary>
-        public string Zprava { get; private set; }
+        public string Zprava { get; protected set; }
 
         public Bojovnik(string jmeno, int zivot, int utok, int obrana, Kostka kostka)
         {
@@ -76,16 +76,20 @@ namespace OOP_Arena
         }
 
 
-        public void Utoc(Bojovnik souper)
+        virtual public void Utoc(Bojovnik souper)
         {
             int uder = _utok + _kostka.HodSebou();
             Zprava = $"{_jmeno} útočí s úderem za {uder} hp";
-            souper.BranSe(uder);
+            souper.BranSe(uder, false);
         }
 
-        public void BranSe(int uder)
+        public void BranSe(int uder, bool magie)
         {
-            int zraneni = uder - (_obrana + _kostka.HodSebou());
+            int zraneni = uder;
+            if (!magie)
+            {
+                zraneni = uder - (_obrana + _kostka.HodSebou());
+            }
             if (zraneni > 0)
             {
                 _zivot -= zraneni;
@@ -98,7 +102,7 @@ namespace OOP_Arena
 
             }
             else
-                Zprava = $"{0} odrazil útok";
+                Zprava = $"{_jmeno} odrazil útok";
         }
     }
 }

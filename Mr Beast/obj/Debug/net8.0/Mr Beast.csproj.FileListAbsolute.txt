@@ -1,0 +1,14 @@
+C:\Users\vacla\source\repos\Mr Beast\bin\Debug\net8.0\Mr Beast.exe
+C:\Users\vacla\source\repos\Mr Beast\bin\Debug\net8.0\Mr Beast.deps.json
+C:\Users\vacla\source\repos\Mr Beast\bin\Debug\net8.0\Mr Beast.runtimeconfig.json
+C:\Users\vacla\source\repos\Mr Beast\bin\Debug\net8.0\Mr Beast.dll
+C:\Users\vacla\source\repos\Mr Beast\bin\Debug\net8.0\Mr Beast.pdb
+C:\Users\vacla\source\repos\Mr Beast\obj\Debug\net8.0\Mr Beast.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vacla\source\repos\Mr Beast\obj\Debug\net8.0\Mr Beast.AssemblyInfoInputs.cache
+C:\Users\vacla\source\repos\Mr Beast\obj\Debug\net8.0\Mr Beast.AssemblyInfo.cs
+C:\Users\vacla\source\repos\Mr Beast\obj\Debug\net8.0\Mr Beast.csproj.CoreCompileInputs.cache
+C:\Users\vacla\source\repos\Mr Beast\obj\Debug\net8.0\Mr Beast.dll
+C:\Users\vacla\source\repos\Mr Beast\obj\Debug\net8.0\refint\Mr Beast.dll
+C:\Users\vacla\source\repos\Mr Beast\obj\Debug\net8.0\Mr Beast.pdb
+C:\Users\vacla\source\repos\Mr Beast\obj\Debug\net8.0\Mr Beast.genruntimeconfig.cache
+C:\Users\vacla\source\repos\Mr Beast\obj\Debug\net8.0\ref\Mr Beast.dll

@@ -9,14 +9,13 @@ namespace OOP_Arena
 {
     class Arena
     {
-        
-        private List<Bojovnik> bojovnici = new List<Bojovnik>();
-        private Kostka kostka;
+        private List<Bojovnik> _bojovnici = new List<Bojovnik>();
+        private Kostka _kostka;
 
         public Arena(List<Bojovnik> bojovnici, Kostka kostka)
         {
-            this.bojovnici = bojovnici;
-            this.kostka = kostka;
+            this._bojovnici = bojovnici;
+            this._kostka = kostka;
         }
         private void VykresliArenu()
         {
@@ -24,9 +23,16 @@ namespace OOP_Arena
             Console.WriteLine("  /$$$$$$                                         \r\n /$$__  $$                                        \r\n| $$  \\ $$  /$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$ \r\n| $$$$$$$$ /$$__  $$ /$$__  $$| $$__  $$ |____  $$\r\n| $$__  $$| $$  \\__/| $$$$$$$$| $$  \\ $$  /$$$$$$$\r\n| $$  | $$| $$      | $$_____/| $$  | $$ /$$__  $$\r\n| $$  | $$| $$      |  $$$$$$$| $$  | $$|  $$$$$$$\r\n|__/  |__/|__/       \\_______/|__/  |__/ \\_______/\r\n                                                  \r\n                                                  \r\n                                                  ");
 
             Console.WriteLine("Zdraví bojovníků: \n");
-            foreach (Bojovnik bojovnik in bojovnici)
+            for (int i = 0; i < _bojovnici.Count; i++)
             {
-                Console.WriteLine("{0} {1}", bojovnik, bojovnik.VratGrafickyPekneZivoty());
+                if (_bojovnici[i] is Carodej carodej)
+                {
+                    Console.WriteLine("{0} {1}", _bojovnici[i], carodej.VratGrafickyPekneStaty());    
+                }
+                else
+                {
+                    Console.WriteLine("{0} {1}", _bojovnici[i], _bojovnici[i].VratGrafickyPekneZivoty());
+                }
             }
         }
 
@@ -40,32 +46,53 @@ namespace OOP_Arena
             Console.Clear();
             Console.WriteLine("  /$$$$$$                                         \r\n /$$__  $$                                        \r\n| $$  \\ $$  /$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$ \r\n| $$$$$$$$ /$$__  $$ /$$__  $$| $$__  $$ |____  $$\r\n| $$__  $$| $$  \\__/| $$$$$$$$| $$  \\ $$  /$$$$$$$\r\n| $$  | $$| $$      | $$_____/| $$  | $$ /$$__  $$\r\n| $$  | $$| $$      |  $$$$$$$| $$  | $$|  $$$$$$$\r\n|__/  |__/|__/       \\_______/|__/  |__/ \\_______/\r\n                                                  \r\n                                                  \r\n                                                  ");
             Console.WriteLine("Vítejte v aréně!");
-            Console.Write("Dnes se utkají ");
-            
-            
-            Console.Write(string.Join(", ", bojovnici));
-            
-            Console.Write("! \n");
+            Console.WriteLine($"Dnes se utká {_bojovnici.Count} bojovníků či čarodějů! \n");
             Console.WriteLine("Zápas může začít...");
             Console.ReadKey();
-            Kostka mince = new Kostka(2);
-            int kdoZacne = mince.HodSebou();
             // cyklus s bojem
-            while (bojovnik1.JeNazivu() && bojovnik2.JeNazivu())
+            while (true)
             {
-                bojovnik1.Utoc(bojovnik2);
-                VykresliArenu();
-                VypisZpravu(bojovnik1.Zprava); // zpráva o útoku
-                VypisZpravu(bojovnik2.Zprava); // zpráva o obraně
+                List<Bojovnik> ziviBojovnici = new List<Bojovnik>();
+                for (int i = 0; i < _bojovnici.Count; i++)
+                {
+                    if (_bojovnici[i].JeNazivu())
+                    {
+                        ziviBojovnici.Add(_bojovnici[i]);
+                    }
+                }
+                if (ziviBojovnici.Count < 2)
+                {
+                    break;
+                }
+
+                Kostka kostkaUtok = new Kostka(ziviBojovnici.Count);
+                Bojovnik utocnik = ziviBojovnici[kostkaUtok.HodSebou() - 1];
+                int kdoDruhy = kostkaUtok.HodSebou();
                 
-                bojovnik2.Utoc(bojovnik1);
+                List<Bojovnik> mozniObranci = new List<Bojovnik>();
+                for (int i = 0; i < ziviBojovnici.Count; i++)
+                {
+                    if (ziviBojovnici[i] != utocnik)
+                    {
+                        mozniObranci.Add(ziviBojovnici[i]);
+                    }
+                }
+                Kostka kostkaObrana = new Kostka(mozniObranci.Count);
+                Bojovnik obrance = mozniObranci[kostkaObrana.HodSebou() - 1];
+                
+                utocnik.Utoc(obrance);
                 VykresliArenu();
-                VypisZpravu(bojovnik2.Zprava); // zpráva o útoku
-                VypisZpravu(bojovnik1.Zprava); // zpráva o obraně
+                VypisZpravu(utocnik.Zprava); // zpráva o útoku
+                VypisZpravu(obrance.Zprava); // zpráva o obraně
+                if (obrance.JeNazivu())
+                {
+                    obrance.Utoc(utocnik);
+                    VykresliArenu();
+                    VypisZpravu(obrance.Zprava); // zpráva o útoku
+                    VypisZpravu(utocnik.Zprava); // zpráva o obraně
+                }
                 Console.WriteLine();
             }
         }
     }
-
-
 }
